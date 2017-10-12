@@ -1,0 +1,1 @@
+Double click the file and you will know how it works.

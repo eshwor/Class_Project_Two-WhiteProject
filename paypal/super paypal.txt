@@ -1,0 +1,39 @@
+email address: super_phpdeveloper1@hotmail.com
+pass:          superbrain
+
+BUYER INFORMATIONS
+====================
+LOGIN: super__1270487640_per@hotmail.com
+
+pass : 270487354
+
+visa
+
+
+
+Country:  	   	 United States
+Business Name: 	  	None
+Credit Card: 	  	Visa   4442397333422457
+Exp Date:  4/2015
+Bank Account: 	  	Checking (Confirmed)
+Routing Number: 325272063
+Bank Account Number: 423726545533841 
+
+
+SELLER INOFORMAITONS
+====================
+LOGIN : super__1270488328_biz@hotmail.com
+
+PASS :  270488287
+
+visa
+
+
+Country:  	   	 United States
+Business Name: 	  	super web's Test Store
+Credit Card: 	  	Visa   4583245832072787
+Exp Date:  4/2015
+Bank Account: 	  	Checking (Confirmed)
+Routing Number: 325272063
+Bank Account Number: 944530253521758 
+

@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+margin:0px;
+padding:0px;
+}
+
+body
+{
+margin:0px;
+margin:0px;
+background:#666;
+color:#FFF;
+}
+
+#logindiv
+{
+margin:200px;
+}
+
+.tablelogin
+{
+margin:0 auto;
+border:1px dotted #333;
+ line-height:25px;
+ color:#FFF;
+}
+
+.login_text
+{
+color:#033;
+}
+
+.table_td
+{
+ line-height:25px;
+ }
+ 
+ #loginErr
+ {
+	color:#F90;
+	font-weight:bold;
+ }

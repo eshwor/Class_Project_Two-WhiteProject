@@ -1,0 +1,1 @@
+<input type="button" value="Pay Now" onclick="window.location.href='p2.php'" />

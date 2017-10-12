@@ -1,0 +1,9 @@
+Options All
+RewriteEngine On
+RewriteRule ^kiran$ index.php [L]
+RewriteRule ^home\.html$ index.php?_page=staticPage&sid=1 [L]
+RewriteRule ^services\.html$ index.php?_page=staticPage&sid=4 [L]
+RewriteRule ^news$ index.php?_page=news [L]
+RewriteRule ^news-([0-9]+)$ index.php?_page=news&newsId=$1 [NC]
+
+

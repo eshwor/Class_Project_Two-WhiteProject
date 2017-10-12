@@ -1,0 +1,34 @@
+<script type="text/javascript">
+function showHideBlogCommentBox(id,w,h){
+//alert(id);
+obj=document.getElementById(id);
+openModalDialog(obj.innerHTML,w,h);
+}
+function openModalDialog(html,w,h) {
+	win = new Window('modal_window', {className: "alert", title: "", zIndex:0,height:h,width:w, opacity:1, resizable: false })
+	win.setDestroyOnClose();		    
+	win.showCenter(true);
+	win.setHTMLContent(html);
+	//if(!width)
+	//    width=250;
+	//if(!height)
+	//    height=350;
+	//win.setSize(width,height);
+}  
+function closeAll()
+{
+	Windows.closeAll();
+}
+</script>
+<script type="text/javascript" src="jsWindows/prototype.js"> </script> 
+<script type="text/javascript" src="jsWindows/effects.js"> </script>
+<script type="text/javascript" src="jsWindows/window.js"> </script>
+<link href="jsWindows/themes/default.css" rel="stylesheet" type="text/css" />
+<link href="jsWindows/themes/alert.css" rel="stylesheet" type="text/css" /> 
+
+<a href="javascript:;" onclick="showHideBlogCommentBox('divEnlarge',316,350)" title="click to enlarge">Click Here to show popup</a>
+<div id="divEnlarge" style="display:none;padding:5px;">
+<div>
+Hello my friend we meet again its been a while where should we begin.</div>
+<div><a href="javascript:;" title="click to close it" onclick="closeAll();">Click Here to close popup</a></div>
+</div>

@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+margin:0px;
+padding:0px;
+}
+
+body
+{
+margin:0px;
+margin:0px;
+
+}
+#wrapper
+{
+width:880px;
+margin:0 auto;
+padding:0px;	
+}
+
+#header
+{
+width:880px;
+margin:0 auto;
+background:url(../images/header.jpg) no-repeat center;
+height:200px;
+
+}
+
+.tabledisplay
+{
+border:1px dotted #030;	
+}
+
+.table_head
+{
+background:#CCC;	
+}
+
+#header h2
+{
+text-align:center;
+padding-top:100px;
+color:white;
+}
+
+#menu
+{
+height:30px;
+text-align:center;
+background:#066;
+padding-top:10px;
+
+}
+
+#menu a
+{
+text-decoration:none;
+color:#FFF;
+padding-left:10px;
+}
+
+#menu a:hover
+{
+color:#000;	
+}
+
+
+#content
+{
+text-align:center;	
+}
+
+.odd
+{
+background:#9CF;	
+}
+
+.even
+{
+background:#9C9;	
+}
+
+.odd1
+{
+background:#999;	
+}
+
+.even1
+{
+background:#999;	
+}
+
+
+#form_table
+{
+background:#999;
+border:1px solid #000;
+text-align:left;
+margin:0 auto;
+
+ 
+ }
+ .formtable
+ {
+margin:0 auto;
+border:1px solid #CCC;
+
+ }
+ 
+  .formtable h2
+  {
+	  text-align:center;
+  }
+ 
+  .loginErr
+ {
+	color:#F90;
+	font-weight:bold;
+ }
+ 
+.paging a
+{
+	color:#000;
+	text-decoration:none;
+	border:1px solid #09F;
+	padding:2px;
+	font-weight:bold;
+}
+
+.paging a:hover
+{
+	color:#F00;
+		font-weight:bold;
+}
